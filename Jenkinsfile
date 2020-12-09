@@ -6,7 +6,7 @@ pipeline {
     
     tools {
           maven 'MAVEN3'
-          jdk 'JAVA8'
+          jdk 'JAVA_HOME'
     }
     
     options {
