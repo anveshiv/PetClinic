@@ -67,10 +67,10 @@ pipeline {
                 '''
             }
         }
-        stage('Code Deployment'){
+        /*stage('Code Deployment'){
             steps {
                 ansiblePlaybook installation: 'ANSIBLE29', playbook: '/home/ubuntu/playbooks/deploy.yaml'
-            }
+           }*/
         }
     }
 }
