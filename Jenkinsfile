@@ -68,10 +68,10 @@ pipeline {
             }
         }
         stage('Code Deployment'){
-            echo "Deployment under implementation"
-           /* steps {
-                ansiblePlaybook installation: 'ANSIBLE29', playbook: '/home/ubuntu/playbooks/deploy.yaml'
-           }*/
+            steps {
+                echo "Deployment under implementation"
+               /* ansiblePlaybook installation: 'ANSIBLE29', playbook: '/home/ubuntu/playbooks/deploy.yaml'*/
+           }
         }
     }
 }
