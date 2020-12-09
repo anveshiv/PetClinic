@@ -67,8 +67,9 @@ pipeline {
                 '''
             }
         }
-        /*stage('Code Deployment'){
-            steps {
+        stage('Code Deployment'){
+            echo "Deployment under implementation"
+           /* steps {
                 ansiblePlaybook installation: 'ANSIBLE29', playbook: '/home/ubuntu/playbooks/deploy.yaml'
            }*/
         }
